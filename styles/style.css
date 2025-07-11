@@ -12,70 +12,6 @@
   font-style: normal; 
 }
 
-/* main styles */
-
-body {
-  background-color: #f0f4fc;
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-
-.upper-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 116px 9.5%;
-}
-
-#action-title{
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: -1px;
-}
-
-#action-desc {
-  color: rgba(50, 36, 50, 0.5);
-  font-size: 24px;
-}
-
-#live-pre{
-  margin-top: 23px;
-}
-
-#wc-mini {
-  border-radius: 48px;
-  max-width: 403px;
-  max-height: 328px;
-}
-/**/
-/* head styles */
-
-.header {
-  background-image: url("../images/Hero-bg.png"); 
-}
-
-.core-text {
-  text-align: center;
-  font-size: 65px;
-  font-weight: 650;
-  margin-top: 208px;
-}
-
-#focus {
-  margin-top: 37px;
-  margin-bottom: 152px;
-}
-
-/* navigation styles */
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 7.5%;
-  padding: 2% 0;
-}
-
 /* shared styles */
 
 .link {
@@ -98,4 +34,176 @@ nav {
   font-size: 34px;
   font-weight: 900;
   color: #4E47FF;
+}
+
+/* navigation styles */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 7.5%;
+  padding: 2% 0;
+}
+
+/* head styles */
+
+.header {
+  background-image: url("../images/Hero-bg.png"); 
+}
+
+.core-text {
+  color: rgba(37, 36, 50, 1);
+  text-align: center;
+  font-size: 65px;
+  font-weight: 650;
+  margin-top: 208px;
+}
+
+#focus {
+  margin-top: 37px;
+  margin-bottom: 152px;
+}
+
+/* main styles */
+
+body {
+  background-color: #f0f4fc;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* upper section */
+
+.upper-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 116px 9.5%;
+}
+
+#action-title {
+  color: rgba(37, 36, 50, 1);
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: -1px;
+}
+
+#action-desc {
+  color: rgba(37, 36, 50, 0.5);
+  font-size: 24px;
+}
+
+#live-pre{
+  margin-top: 23px;
+}
+
+#wc-mini {
+  border-radius: 48px;
+  max-width: 403px;
+  max-height: 328px;
+}
+
+/* mid section */
+
+.mid-sec-bg{
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+  margin: 0 9.5%;
+  padding: 40px 0px;
+}
+
+.mid-section {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#mid-header {
+  color: rgba(37, 36, 50, 1);
+  text-align: center;
+  font-weight: bold;
+  font-size: 38px;
+  margin-bottom: -20px;
+}
+
+.mid-b-text {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 80px;
+  font-weight: bold;
+  color: #4E47FF;
+  margin-bottom: -1px;
+}
+
+.mid-s-text {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: -1px;
+}
+
+/* review section */
+
+.review-header {
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  margin-top: 137px;
+}
+
+.review-card {
+  display: flex;
+  justify-content: center;
+}
+
+.review-slip {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 14px;
+  padding: 24px 80px 15px 24px;
+  margin-left: 20px;
+
+}
+
+.review-title {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.review-desc {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.reviewer {
+  display: flex;
+  align-items:center;
+}
+
+.reviewer-name{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+  color: rgba(0, 0, 0, .5);
+}
+
+.reviewer-date{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: lighter;
+  color: rgba(0, 0, 0, .3);
+}
+
+.reviewer-icon {
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 9999px;
+  margin-right: 11px;
 }
