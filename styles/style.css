@@ -28,9 +28,38 @@
   font-style: normal;
 }
 
+.input-label{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.input-holder{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 32px;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  resize: none;
+  width: 100%;
+  min-width: 497px;
+}
+
 /* logo */
 
 #logo {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal; 
   font-size: 34px;
   font-weight: 900;
   color: #4E47FF;
@@ -219,6 +248,7 @@ body {
   border-radius: 14px;
   padding-top: 21px;
   padding-bottom: 71px;
+  margin-bottom: 180px;
 }
 
 .low-sec-title {
@@ -241,3 +271,64 @@ body {
 }
 
 /* contact section */
+
+.contact-sec {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 0 9.5%
+}
+
+.form-title {
+  font-size: 97px;
+  font-weight: bold;
+}
+
+#submit-size {
+  text-decoration: none;
+  font-weight: 560;
+  font-size: 16px;
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  border-radius: 10px;
+  border: none;
+  padding: 18px 36px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  width: 100%;
+}
+
+/* footer section */
+
+.footer-sec {
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+#footer-logo{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal; 
+  font-size: 100px;
+  font-weight: 900;
+  color: #4E47FF;
+  padding-top: 104px;
+  margin-bottom: -1px;
+}
+
+.footer-desc {
+  color: rgba(137, 135, 161, 1);
+}
+
+.footer-link {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.link-deco {
+  text-decoration: none;
+  color: rgba(137, 135, 161, 1);
+  padding-bottom: 103px;
+}
